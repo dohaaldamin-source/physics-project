@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>عالم الفيزياء | ضحى الضامن</title>
+<style>
+:root{--bg:#071426;--panel:#10243c;--panel2:#132d49;--ink:#eef6ff;--muted:#a9bfd5;--cyan:#5ee7ef;--blue:#6ea8ff;--violet:#b69cff;--line:#29445f;--gold:#ffd27a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 85% 0%,#17395b 0,transparent 32%),linear-gradient(145deg,#06101f,#0a1b30 60%,#081525);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.85}
+a{color:var(--cyan)}button,input{font:inherit}.wrap{max-width:1160px;margin:auto;padding:20px}.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:12px 0}.brand{font-weight:900;letter-spacing:.4px;color:var(--cyan)}.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{color:var(--muted);text-decoration:none;padding:7px 11px;border:1px solid var(--line);border-radius:12px;font-size:.9rem}.nav a:hover{color:white;border-color:var(--cyan)}
+.hero{margin:24px 0 34px;padding:clamp(24px,5vw,56px);border:1px solid #315474;border-radius:28px;background:linear-gradient(120deg,rgba(21,54,83,.94),rgba(12,30,52,.96));position:relative;overflow:hidden}.hero:after{content:"F = ma";position:absolute;left:3%;top:12%;font-size:clamp(2.6rem,8vw,6rem);font-weight:900;color:#ffffff0c;transform:rotate(-12deg)}.eyebrow{color:var(--cyan);font-weight:bold}.hero h1{font-size:clamp(2.2rem,6vw,4.5rem);line-height:1.2;margin:10px 0}.hero p{max-width:700px;color:var(--muted);font-size:1.08rem}.by{display:inline-block;margin-top:10px;padding:7px 15px;border:1px solid #47708e;border-radius:99px;color:#d7edff}
+h2{font-size:1.8rem;margin:0 0 8px}h3{color:var(--cyan);margin:4px 0 10px}.section{margin:38px 0;scroll-margin-top:20px}.sub{color:var(--muted);margin-top:0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:15px}.card{background:linear-gradient(145deg,var(--panel),#0c1c30);border:1px solid var(--line);border-radius:20px;padding:19px;box-shadow:0 12px 28px #0002}.card p{color:#c5d7e8;margin:6px 0}.tag{display:inline-block;font-size:.8rem;color:var(--cyan);border:1px solid #376078;border-radius:99px;padding:2px 10px;margin-bottom:8px}.formula{direction:ltr;text-align:center;background:#061323;border:1px dashed #47708e;border-radius:13px;padding:12px;margin:12px 0;font-size:1.18rem;color:#fff;font-weight:bold}.callout{border-right:4px solid var(--gold);background:#332b1b55;padding:12px 15px;border-radius:12px;color:#f6e7c4}.lesson{display:grid;grid-template-columns:1fr 1fr;gap:15px}.list{padding-right:20px;color:#c5d7e8}.list li{margin:5px 0}.btn{background:linear-gradient(100deg,#20a8bd,#447fe2);color:#041426;border:0;border-radius:12px;padding:10px 16px;font-weight:bold;cursor:pointer}.btn:hover{filter:brightness(1.1)}.ghost{background:#152d47;color:var(--ink);border:1px solid #3c5d7b}.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.controls label{color:var(--muted)}input[type=range]{accent-color:var(--cyan);width:150px}input[type=number]{width:90px;background:#071626;color:white;border:1px solid #45617b;border-radius:9px;padding:7px}
+canvas{width:100%;max-width:100%;background:#071525;border:1px solid #29445f;border-radius:14px;display:block}.result{color:var(--gold);font-weight:bold}.quizq{padding:14px 0;border-bottom:1px solid var(--line)}.quizq label{display:block;color:#d8e8f7;cursor:pointer}.quizq input{accent-color:var(--cyan)}.small{font-size:.9rem;color:var(--muted)}.footer{text-align:center;border-top:1px solid var(--line);padding:24px;color:var(--muted);margin-top:45px}.pill{background:#163b55;border-radius:99px;padding:3px 10px;color:#bdeff5;font-size:.8rem}
+@media(max-width:720px){.lesson{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}.hero:after{top:auto;bottom:0}.wrap{padding:14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="brand">✦ مختبر المعرفة | PHYSICS LAB</div>
+  <nav class="nav">
+    <a href="#start">الرئيسية</a><a href="#one">بُعد واحد</a><a href="#two">بُعدان</a><a href="#newton">نيوتن</a><a href="#lab">المختبر</a><a href="#quiz">اختبر نفسك</a>
+  </nav>
+</header>
+<section class="hero" id="start">
+  <div class="eyebrow">مشروع تعليمي تفاعلي • الصف العاشر</div>
+  <h1>عالم الفيزياء</h1>
+  <h2 style="color:#d7efff;font-weight:500">رحلة في الحركة والقوى</h2>
+  <p>من وصف حركة جسم على خط مستقيم، إلى تتبّع مسار المقذوفات في الهواء، وصولًا إلى فهم القوى التي تغيّر حركة الأجسام. اكتشفي الفيزياء من حولك بالتفسير والتجربة.</p>
+  <span class="by">إعداد الطالبة: ضحى الضامن</span>
+</section>
+
+<section class="section">
+<h2>خريطة الرحلة</h2><p class="sub">ثلاث محطات مترابطة لفهم الحركة والقوى.</p>
+<div class="grid">
+ <article class="card"><span class="tag">المحطة 01</span><h3>الحركة في بُعد واحد</h3><p>كيف نصف تغيّر موقع جسم على خط مستقيم؟ نتعرّف إلى الإزاحة والسرعة والتسارع والسقوط الحر.</p><a href="#one">ابدئي المحطة ←</a></article>
+ <article class="card"><span class="tag">المحطة 02</span><h3>الحركة في بُعدين</h3><p>كيف يتحرك الجسم أفقيًا ورأسيًا في الوقت نفسه؟ ندرس المتجهات وحركة المقذوفات.</p><a href="#two">ابدئي المحطة ←</a></article>
+ <article class="card"><span class="tag">المحطة 03</span><h3>قوانين نيوتن للحركة</h3><p>ما الذي يجعل الجسم يبدأ الحركة أو يغيّر سرعته أو اتجاهه؟ الإجابة في قوانين نيوتن.</p><a href="#newton">ابدئي المحطة ←</a></article>
+</div>
+</section>
+
+<section class="section" id="one">
+<h2>01 | الحركة في بُعد واحد</h2><p class="sub">حركة على مسار مستقيم، مثل سيارة تسير في شارع مستقيم أو مصعد يتحرك رأسيًا.</p>
+<div class="lesson">
+ <article class="card"><h3>الموقع والمسافة والإزاحة</h3><ul class="list">
+ <li><b>الموقع:</b> مكان الجسم بالنسبة إلى نقطة مرجعية.</li><li><b>المسافة:</b> طول المسار الكلي الذي قطعه الجسم، وهي كمية قياسية.</li><li><b>الإزاحة:</b> التغيّر في موقع الجسم من البداية إلى النهاية مع تحديد الاتجاه، وهي كمية متجهة.</li></ul><div class="formula">Δx = x<sub>f</sub> − x<sub>i</sub></div><p>مثال: تحركت طالبة 5 m شرقًا ثم 2 m غربًا؛ المسافة 7 m، والإزاحة 3 m شرقًا.</p></article>
+ <article class="card"><h3>السرعة والتسارع</h3><ul class="list"><li><b>السرعة المتوسطة:</b> المسافة الكلية مقسومة على الزمن الكلي.</li><li><b>السرعة المتجهة المتوسطة:</b> الإزاحة مقسومة على الزمن.</li><li><b>التسارع:</b> معدل تغيّر السرعة المتجهة مع الزمن.</li></ul><div class="formula">v̄ = Δx / Δt</div><div class="formula">a = (v<sub>f</sub> − v<sub>i</sub>) / Δt</div><p>وحدة السرعة m/s، ووحدة التسارع m/s².</p></article>
+ <article class="card"><h3>الحركة بتسارع ثابت</h3><p>عندما يكون التسارع ثابتًا يمكن استخدام معادلات الحركة الآتية، مع اختيار اتجاه موجب بوضوح.</p><div class="formula">v<sub>f</sub> = v<sub>i</sub> + at</div><div class="formula">Δx = v<sub>i</sub>t + ½at²</div><div class="formula">v<sub>f</sub>² = v<sub>i</sub>² + 2aΔx</div><p class="small">تُستخدم المعادلة المناسبة بحسب المعطيات والمطلوب.</p></article>
+ <article class="card"><h3>السقوط الحر</h3><p>هو حركة جسم تحت تأثير الجاذبية وحدها، مع إهمال مقاومة الهواء. قرب سطح الأرض يكون تسارع الجاذبية إلى أسفل.</p><div class="formula">g ≈ 9.8 m/s²</div><p>إذا اعتبرنا الأعلى اتجاهًا موجبًا، فإن تسارع الجاذبية يكون a = −g.</p><div class="callout">تذكّري: إشارة التسارع تعتمد على اختيار الاتجاه الموجب، أما الجاذبية فاتجاهها إلى أسفل دائمًا قرب سطح الأرض.</div></article>
+</div>
+</section>
+
+<section class="section" id="two">
+<h2>02 | الحركة في بُعدين</h2><p class="sub">عندما يتحرك الجسم أفقيًا ورأسيًا معًا، مثل كرة تُقذف بزاوية.</p>
+<div class="lesson">
+ <article class="card"><h3>الكميات المتجهة ومركباتها</h3><p>المتجه كمية لها مقدار واتجاه. يمكن تحليل المتجه إلى مركبتين متعامدتين: أفقية ورأسية.</p><div class="formula">A<sub>x</sub> = A cos θ</div><div class="formula">A<sub>y</sub> = A sin θ</div><p>حيث θ زاوية المتجه مع المحور الأفقي.</p></article>
+ <article class="card"><h3>حركة المقذوفات</h3><p>عند إهمال مقاومة الهواء، تتحرك المقذوفات بتسارع أفقي يساوي صفرًا، وتسارع رأسي يساوي تسارع الجاذبية إلى أسفل.</p><ul class="list"><li>المركبة الأفقية للسرعة ثابتة.</li><li>المركبة الرأسية للسرعة تتغير بسبب الجاذبية.</li><li>المسار يكون قطعًا مكافئًا إذا كان الإطلاق والهبوط على الارتفاع نفسه.</li></ul></article>
+ <article class="card"><h3>تحليل السرعة الابتدائية</h3><p>إذا قُذف جسم بسرعة ابتدائية v بزاوية θ فوق الأفقي:</p><div class="formula">v<sub>ix</sub> = v cos θ</div><div class="formula">v<sub>iy</sub> = v sin θ</div><p>تُحل المسألة أفقيًا ورأسيًا كلٌّ على حدة، مع الزمن نفسه للمركبتين.</p></article>
+ <article class="card"><h3>مفاهيم مهمة</h3><ul class="list"><li><b>زمن التحليق:</b> الزمن من لحظة الإطلاق حتى الوصول.</li><li><b>أقصى ارتفاع:</b> أعلى نقطة في المسار، وتكون السرعة الرأسية عندها صفرًا لحظيًا.</li><li><b>المدى الأفقي:</b> الإزاحة الأفقية خلال زمن التحليق، ووحدته المتر (m).</li></ul><div class="callout">لا يعني انعدام السرعة الرأسية عند القمة أن سرعة المقذوف كلها تساوي صفرًا؛ فقد تبقى له سرعة أفقية.</div></article>
+</div>
+</section>
+
+<section class="section" id="newton">
+<h2>03 | قوانين نيوتن للحركة</h2><p class="sub">تربط قوانين نيوتن بين محصلة القوى وحالة حركة الجسم.</p>
+<div class="grid">
+ <article class="card"><span class="tag">القانون الأول</span><h3>قانون القصور الذاتي</h3><p>يبقى الجسم على حالته من السكون أو الحركة بسرعة متجهة ثابتة بخط مستقيم ما لم تؤثر فيه محصلة قوى تغيّر تلك الحالة.</p><p><b>مثال:</b> اندفاع الركاب إلى الأمام عند توقف السيارة فجأة، لذلك نستخدم حزام الأمان.</p></article>
+ <article class="card"><span class="tag">القانون الثاني</span><h3>العلاقة بين القوة والتسارع</h3><p>يتناسب تسارع الجسم طرديًا مع محصلة القوى المؤثرة فيه، وعكسيًا مع كتلته.</p><div class="formula">ΣF = ma</div><p>القوة بوحدة نيوتن (N)، والكتلة بالكيلوغرام (kg)، والتسارع (m/s²).</p></article>
+ <article class="card"><span class="tag">القانون الثالث</span><h3>الفعل ورد الفعل</h3><p>إذا أثّر جسم بقوة في جسم آخر، أثّر الجسم الثاني بقوة مساوية لها في المقدار ومعاكسة لها في الاتجاه.</p><p><b>مثال:</b> عند المشي تدفع القدم الأرض إلى الخلف، فتؤثر الأرض في القدم بقوة إلى الأمام.</p></article>
+</div>
+<div class="card" style="margin-top:15px"><h3>أنواع قوى شائعة</h3><div class="grid"><p>⚖️ <b>الوزن:</b> قوة جذب الأرض للجسم، واتجاهها إلى أسفل.</p><p>🧵 <b>قوة الشد:</b> قوة ينقلها حبل أو خيط مشدود.</p><p>🧱 <b>القوة العمودية:</b> قوة سطح تؤثر عموديًا في الجسم الملامس له.</p><p>🫳 <b>الاحتكاك:</b> قوة تعارض الحركة النسبية أو ميل السطحين للانزلاق.</p></div><div class="formula">W = mg</div><p class="small">قرب سطح الأرض، g ≈ 9.8 m/s².</p></div>
+</section>
+
+<section class="section" id="lab">
+<h2>المختبر التفاعلي</h2><p class="sub">غيّري القيم ولاحظي كيف تتغير النتائج. هذه نماذج تعليمية مبسطة وليست تجارب مخبرية حقيقية.</p>
+<div class="grid">
+ <article class="card"><h3>مختبر التسارع</h3><p>احسبي التسارع من القوة المحصلة والكتلة.</p><div class="controls"><label>القوة (N) <input id="force" type="range" min="0" max="100" value="20"></label><b id="fv">20</b></div><div class="controls"><label>الكتلة (kg) <input id="mass" type="range" min="1" max="20" value="5"></label><b id="mv">5</b></div><div class="formula" id="acc">a = 4 m/s²</div><p class="small">وفق قانون نيوتن الثاني: a = ΣF ÷ m.</p></article>
+ <article class="card"><h3>مختبر المقذوفات</h3><p>نموذج مثالي لمقذوف يعود إلى مستوى الإطلاق نفسه مع إهمال مقاومة الهواء.</p><div class="controls"><label>السرعة الابتدائية (m/s) <input id="speed" type="range" min="5" max="30" value="20"></label><b id="sv">20</b></div><div class="controls"><label>زاوية الإطلاق <input id="angle" type="range" min="10" max="80" value="45"></label><b id="av">45°</b></div><div class="formula" id="proj">المدى ≈ 40.8 m</div><canvas id="trajectory" width="520" height="230" aria-label="رسم مسار المقذوف"></canvas><p class="small" id="flight">زمن التحليق ≈ 2.89 s • أقصى ارتفاع ≈ 10.2 m</p></article>
+</div>
+</section>
+
+<section class="section" id="quiz">
+<h2>تحدّي الفيزياء</h2><p class="sub">اختاري الإجابة الصحيحة ثم اضغطي «تصحيح الإجابات».</p>
+<div class="card" id="quizbox">
+ <div class="quizq"><b>1. ما وحدة قياس التسارع في النظام الدولي؟</b><label><input type="radio" name="q1" value="a"> m/s</label><label><input type="radio" name="q1" value="b"> m/s²</label><label><input type="radio" name="q1" value="c"> N</label></div>
+ <div class="quizq"><b>2. عند أعلى نقطة في مسار المقذوف تكون مركبته الرأسية للسرعة:</b><label><input type="radio" name="q2" value="a"> صفرًا لحظيًا</label><label><input type="radio" name="q2" value="b"> أكبر ما يمكن</label><label><input type="radio" name="q2" value="c"> مساوية للجاذبية</label></div>
+ <div class="quizq"><b>3. أي قانون يعبّر عنه بالعلاقة ΣF = ma؟</b><label><input type="radio" name="q3" value="a"> الأول</label><label><input type="radio" name="q3" value="b"> الثاني</label><label><input type="radio" name="q3" value="c"> الثالث</label></div>
+ <div class="quizq"><b>4. إذا كانت محصلة القوى المؤثرة في جسم تساوي صفرًا، فإن تسارعه:</b><label><input type="radio" name="q4" value="a"> يساوي صفرًا</label><label><input type="radio" name="q4" value="b"> يزداد دائمًا</label><label><input type="radio" name="q4" value="c"> يتجه إلى أسفل دائمًا</label></div>
+ <div class="quizq"><b>5. المدى الأفقي كمية تقاس بوحدة:</b><label><input type="radio" name="q5" value="a"> الثانية</label><label><input type="radio" name="q5" value="b"> المتر</label><label><input type="radio" name="q5" value="c"> m/s²</label></div>
+ <button class="btn" onclick="gradeQuiz()">تصحيح الإجابات</button> <span id="score" class="result" aria-live="polite"></span>
+</div>
+</section>
+
+<section class="section">
+<h2>قاموس الرموز والوحدات</h2>
+<div class="card"><div class="grid">
+<p><b>Δx</b> الإزاحة — m</p><p><b>t</b> الزمن — s</p><p><b>v</b> السرعة — m/s</p><p><b>a</b> التسارع — m/s²</p><p><b>m</b> الكتلة — kg</p><p><b>F</b> القوة — N</p><p><b>g</b> تسارع الجاذبية — m/s²</p><p><b>W</b> الوزن — N</p>
+</div></div>
+</section>
+
+<section class="section">
+<h2>مصادر للتعلّم والاستكشاف</h2>
+<div class="grid">
+ <article class="card"><h3>PhET Interactive Simulations</h3><p>محاكاة تعليمية تفاعلية في الفيزياء والعلوم.</p><a href="https://phet.colorado.edu/ar/" target="_blank" rel="noopener">زيارة مختبر PhET</a></article>
+ <article class="card"><h3>مراجعة الكتاب المدرسي</h3><p>يُرجى اعتماد كتاب الفيزياء للصف العاشر الأردني ودفتر الصف مرجعًا أساسيًا لترتيب الدروس والرموز والصيغ المطلوبة في الامتحان.</p></article>
+</div>
+</section>
+<footer class="footer">إعداد الطالبة: ضحى الضامن • الصف العاشر<br><span class="small">العلم يبدأ بسؤال… والفيزياء تساعدنا على فهم الإجابة.</span></footer>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+function updateAcc(){let f=+$('force').value,m=+$('mass').value;$('fv').textContent=f;$('mv').textContent=m;$('acc').textContent='a = '+(f/m).toFixed(2)+' m/s²'}
+$('force').addEventListener('input',updateAcc);$('mass').addEventListener('input',updateAcc);updateAcc();
+function drawProjectile(){let v=+$('speed').value,deg=+$('angle').value,th=deg*Math.PI/180,g=9.8,vx=v*Math.cos(th),vy=v*Math.sin(th),T=2*vy/g,R=vx*T,H=vy*vy/(2*g);$('sv').textContent=v;$('av').textContent=deg+'°';$('proj').textContent='المدى الأفقي ≈ '+R.toFixed(1)+' m';$('flight').textContent='زمن التحليق ≈ '+T.toFixed(2)+' s • أقصى ارتفاع ≈ '+H.toFixed(1)+' m';let c=$('trajectory'),ctx=c.getContext('2d'),w=c.width,h=c.height;ctx.clearRect(0,0,w,h);ctx.strokeStyle='#49647e';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(25,h-25);ctx.lineTo(w-12,h-25);ctx.stroke();ctx.fillStyle='#a9bfd5';ctx.font='12px Tahoma';ctx.fillText('الأرض',w-52,h-7);let sx=Math.min((w-55)/R,8),sy=Math.min((h-55)/H,8);ctx.strokeStyle='#5ee7ef';ctx.lineWidth=3;ctx.beginPath();for(let i=0;i<=100;i++){let t=T*i/100,x=vx*t,y=vy*t-.5*g*t*t,px=25+x*sx,py=h-25-y*sy;if(i===0)ctx.moveTo(px,py);else ctx.lineTo(px,py)}ctx.stroke();ctx.fillStyle='#ffd27a';ctx.beginPath();ctx.arc(25+R*sx,h-25,4,0,Math.PI*2);ctx.fill()}
+$('speed').addEventListener('input',drawProjectile);$('angle').addEventListener('input',drawProjectile);drawProjectile();
+function gradeQuiz(){let ans={q1:'b',q2:'a',q3:'b',q4:'a',q5:'b'},score=0;for(let q in ans){let el=document.querySelector('input[name="'+q+'"]:checked');if(el&&el.value===ans[q])score++}$('score').textContent='نتيجتك: '+score+' من 5 '+(score===5?'ممتاز! أحسنتِ.':'راجعي الإجابات وحاولي مرة أخرى.')}
+</script>
+</body></html>
